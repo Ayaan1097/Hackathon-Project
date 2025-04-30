@@ -1,0 +1,25 @@
+{
+  "name": "property-unification-platform",
+  "version": "1.0.0",
+  "description": "Property Unification Platform - Hack the Hackthon",
+  "main": "start-app.js",
+  "scripts": {
+    "start": "node start-app.js",
+    "backend": "cd backend && npm run dev",
+    "frontend": "cd frontend/asset && npm start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "property",
+    "unification",
+    "platform",
+    "hackathon"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.9.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  }
+}

@@ -1,0 +1,50 @@
+================================================================
+  PROPERTY UNIFICATION PLATFORM - HOW TO RUN THE PROJECT
+================================================================
+
+Option 1: Use the batch file (Windows)
+--------------------------------------
+Double-click on the start-project.bat file or run it from Command Prompt:
+> start-project.bat
+
+
+Option 2: Use the PowerShell script (Windows)
+---------------------------------------------
+Run the PowerShell script from PowerShell:
+> .\start-project.ps1
+
+
+Option 3: Run commands manually
+------------------------------
+
+1. Start the backend server:
+   Open a Command Prompt and run:
+   > cd backend
+   > node index.js
+
+2. Start the frontend server:
+   Open another Command Prompt and run:
+   > cd frontend/asset
+   > npm start
+
+The application will be available at:
+- Backend: http://localhost:5000
+- Frontend: http://localhost:3005
+
+================================================================
+  TROUBLESHOOTING
+================================================================
+
+If you encounter the error "address already in use", you can kill
+the processes using these ports with the following commands:
+
+For Windows:
+> netstat -ano | findstr :5000
+> taskkill /F /PID <PID>
+
+> netstat -ano | findstr :3005
+> taskkill /F /PID <PID>
+
+Replace <PID> with the Process ID shown in the netstat output.
+
+================================================================ 

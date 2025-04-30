@@ -1,0 +1,253 @@
+[
+  {
+    "id": "RUR98765",
+    "type": "Agricultural Land",
+    "address": {
+      "village": "Baner",
+      "tehsil": "Pune",
+      "district": "Pune",
+      "state": "Maharashtra",
+      "pincode": "411045"
+    },
+    "owner": "Kisan Agricultural Co-op",
+    "khasraNumber": "KN-123/456",
+    "surveyNumber": "SN-78/90",
+    "propertyDetails": {
+      "area": "5 acres",
+      "landType": "Agricultural",
+      "irrigationType": "Canal",
+      "soilType": "Black soil",
+      "price": "₹ 50,00,000"
+    },
+    "hasLoan": true,
+    "loanDetails": {
+      "lender": "State Bank of India",
+      "amount": "₹ 30,00,000",
+      "outstandingAmount": "₹ 25,00,000"
+    }
+  },
+  {
+    "id": "RUR98766",
+    "type": "Farmhouse",
+    "address": {
+      "village": "Pimple",
+      "tehsil": "Pune",
+      "district": "Pune",
+      "state": "Maharashtra",
+      "pincode": "411057"
+    },
+    "owner": "Ramesh Patil",
+    "khasraNumber": "KN-789/012",
+    "surveyNumber": "SN-34/56",
+    "propertyDetails": {
+      "area": "2 acres",
+      "landType": "Mixed Use",
+      "irrigationType": "Well",
+      "soilType": "Red soil",
+      "yearBuilt": 2015,
+      "price": "₹ 1,20,00,000"
+    },
+    "hasLoan": false
+  },
+  {
+    "id": "RUR98767",
+    "type": "Agricultural Land",
+    "address": {
+      "village": "Kamshet",
+      "tehsil": "Maval",
+      "district": "Pune",
+      "state": "Maharashtra",
+      "pincode": "410405"
+    },
+    "owner": "Ganesh Patil",
+    "khasraNumber": "KN-345/678",
+    "surveyNumber": "SN-23/45",
+    "propertyDetails": {
+      "area": "7 acres",
+      "landType": "Agricultural",
+      "irrigationType": "Drip",
+      "soilType": "Black soil",
+      "price": "₹ 70,00,000"
+    },
+    "hasLoan": true,
+    "loanDetails": {
+      "lender": "Bank of Maharashtra",
+      "amount": "₹ 40,00,000",
+      "outstandingAmount": "₹ 35,00,000"
+    }
+  },
+  {
+    "id": "RUR98768",
+    "type": "Orchard",
+    "address": {
+      "village": "Nashik",
+      "tehsil": "Nashik",
+      "district": "Nashik",
+      "state": "Maharashtra",
+      "pincode": "422003"
+    },
+    "owner": "Vineyards India Ltd",
+    "khasraNumber": "KN-456/789",
+    "surveyNumber": "SN-56/78",
+    "propertyDetails": {
+      "area": "12 acres",
+      "landType": "Horticultural",
+      "irrigationType": "Drip",
+      "soilType": "Loamy",
+      "price": "₹ 2,50,00,000"
+    },
+    "hasLoan": true,
+    "loanDetails": {
+      "lender": "NABARD",
+      "amount": "₹ 1,50,00,000",
+      "outstandingAmount": "₹ 1,20,00,000"
+    }
+  },
+  {
+    "id": "RUR98769",
+    "type": "Dairy Farm",
+    "address": {
+      "village": "Karjat",
+      "tehsil": "Karjat",
+      "district": "Raigad",
+      "state": "Maharashtra",
+      "pincode": "410201"
+    },
+    "owner": "Happy Milk Cooperative",
+    "khasraNumber": "KN-567/890",
+    "surveyNumber": "SN-89/10",
+    "propertyDetails": {
+      "area": "8 acres",
+      "landType": "Pastoral",
+      "irrigationType": "Rainwater Harvesting",
+      "soilType": "Clay loam",
+      "price": "₹ 1,80,00,000"
+    },
+    "hasLoan": false
+  },
+  {
+    "id": "RUR98770",
+    "type": "Poultry Farm",
+    "address": {
+      "village": "Baramati",
+      "tehsil": "Baramati",
+      "district": "Pune",
+      "state": "Maharashtra",
+      "pincode": "413102"
+    },
+    "owner": "Fresh Eggs Ltd",
+    "khasraNumber": "KN-678/901",
+    "surveyNumber": "SN-12/34",
+    "propertyDetails": {
+      "area": "4 acres",
+      "landType": "Commercial Agriculture",
+      "irrigationType": "Borewell",
+      "soilType": "Sandy loam",
+      "price": "₹ 1,20,00,000"
+    },
+    "hasLoan": true,
+    "loanDetails": {
+      "lender": "Axis Bank",
+      "amount": "₹ 80,00,000",
+      "outstandingAmount": "₹ 60,00,000"
+    }
+  },
+  {
+    "id": "RUR98771",
+    "type": "Agricultural Land",
+    "address": {
+      "village": "Kolhapur",
+      "tehsil": "Karvir",
+      "district": "Kolhapur",
+      "state": "Maharashtra",
+      "pincode": "416003"
+    },
+    "owner": "Sagar Desai",
+    "khasraNumber": "KN-789/012",
+    "surveyNumber": "SN-67/89",
+    "propertyDetails": {
+      "area": "9 acres",
+      "landType": "Agricultural",
+      "irrigationType": "Canal",
+      "soilType": "Black soil",
+      "price": "₹ 90,00,000"
+    },
+    "hasLoan": false
+  },
+  {
+    "id": "RUR98772",
+    "type": "Plantation",
+    "address": {
+      "village": "Coorg",
+      "tehsil": "Madikeri",
+      "district": "Kodagu",
+      "state": "Karnataka",
+      "pincode": "571201"
+    },
+    "owner": "Arabica Coffee Estates",
+    "khasraNumber": "KN-890/123",
+    "surveyNumber": "SN-34/56",
+    "propertyDetails": {
+      "area": "15 acres",
+      "landType": "Plantation",
+      "irrigationType": "Sprinkler",
+      "soilType": "Forest soil",
+      "price": "₹ 3,50,00,000"
+    },
+    "hasLoan": true,
+    "loanDetails": {
+      "lender": "Karnataka Bank",
+      "amount": "₹ 2,00,00,000",
+      "outstandingAmount": "₹ 1,80,00,000"
+    }
+  },
+  {
+    "id": "RUR98773",
+    "type": "Fishery",
+    "address": {
+      "village": "Ratnagiri",
+      "tehsil": "Ratnagiri",
+      "district": "Ratnagiri",
+      "state": "Maharashtra",
+      "pincode": "415612"
+    },
+    "owner": "Coastal Fish Farms",
+    "khasraNumber": "KN-901/234",
+    "surveyNumber": "SN-78/90",
+    "propertyDetails": {
+      "area": "6 acres",
+      "landType": "Aquaculture",
+      "irrigationType": "Natural water body",
+      "soilType": "Coastal soil",
+      "price": "₹ 1,50,00,000"
+    },
+    "hasLoan": false
+  },
+  {
+    "id": "RUR98774",
+    "type": "Agricultural Land",
+    "address": {
+      "village": "Sangli",
+      "tehsil": "Miraj",
+      "district": "Sangli",
+      "state": "Maharashtra",
+      "pincode": "416416"
+    },
+    "owner": "Yogesh Patil",
+    "khasraNumber": "KN-012/345",
+    "surveyNumber": "SN-23/45",
+    "propertyDetails": {
+      "area": "10 acres",
+      "landType": "Agricultural",
+      "irrigationType": "Canal",
+      "soilType": "Alluvial soil",
+      "price": "₹ 1,10,00,000"
+    },
+    "hasLoan": true,
+    "loanDetails": {
+      "lender": "HDFC Bank",
+      "amount": "₹ 70,00,000",
+      "outstandingAmount": "₹ 65,00,000"
+    }
+  }
+]

@@ -1,0 +1,253 @@
+[
+  {
+    "id": "URB12345",
+    "type": "Apartment",
+    "address": {
+      "street": "Koregaon Park Road",
+      "locality": "Koregaon Park",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "pincode": "411001"
+    },
+    "owner": "Rahul Sharma",
+    "registrationNumber": "PUN-AP-2022-123456",
+    "propertyDetails": {
+      "area": "1200 sq.ft",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "floor": 3,
+      "totalFloors": 10,
+      "amenities": ["Gym", "Swimming Pool", "24x7 Security"],
+      "ageOfProperty": 5,
+      "price": "₹ 85,00,000"
+    },
+    "hasLoan": true,
+    "loanDetails": {
+      "lender": "HDFC Bank",
+      "amount": "₹ 60,00,000",
+      "outstandingAmount": "₹ 45,00,000"
+    }
+  },
+  {
+    "id": "URB12346",
+    "type": "Commercial",
+    "address": {
+      "street": "MG Road",
+      "locality": "Camp Area",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "pincode": "411001"
+    },
+    "owner": "Mehta Business Solutions",
+    "registrationNumber": "PUN-CM-2018-789012",
+    "propertyDetails": {
+      "area": "2500 sq.ft",
+      "floor": 2,
+      "totalFloors": 6,
+      "amenities": ["Elevator", "Backup Power", "Parking"],
+      "ageOfProperty": 8,
+      "price": "₹ 2,25,00,000"
+    },
+    "hasLoan": true,
+    "loanDetails": {
+      "lender": "State Bank of India",
+      "amount": "₹ 1,80,00,000",
+      "outstandingAmount": "₹ 1,20,00,000"
+    }
+  },
+  {
+    "id": "URB12347",
+    "type": "Independent House",
+    "address": {
+      "street": "Baner Road",
+      "locality": "Baner",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "pincode": "411045"
+    },
+    "owner": "Priya Deshmukh",
+    "registrationNumber": "PUN-IH-2015-345678",
+    "propertyDetails": {
+      "area": "2800 sq.ft",
+      "plotArea": "3600 sq.ft",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "totalFloors": 2,
+      "amenities": ["Garden", "Terrace", "Private Parking"],
+      "ageOfProperty": 12,
+      "price": "₹ 2,80,00,000"
+    },
+    "hasLoan": false
+  },
+  {
+    "id": "URB12348",
+    "type": "Plot",
+    "address": {
+      "street": "Off Solapur Highway",
+      "locality": "Hadapsar",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "pincode": "411028"
+    },
+    "owner": "Aditya Real Estate",
+    "registrationNumber": "PUN-PL-2020-901234",
+    "propertyDetails": {
+      "area": "5000 sq.ft",
+      "dimensions": "50x100 ft",
+      "amenities": ["Corner Plot", "Ready for Construction"],
+      "price": "₹ 1,10,00,000"
+    },
+    "hasLoan": false
+  },
+  {
+    "id": "URB12349",
+    "type": "Villa",
+    "address": {
+      "street": "Lavasa Road",
+      "locality": "Lavasa",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "pincode": "412112"
+    },
+    "owner": "Tanuja Patil",
+    "registrationNumber": "PUN-VL-2019-567890",
+    "propertyDetails": {
+      "area": "3200 sq.ft",
+      "plotArea": "4500 sq.ft",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "totalFloors": 2,
+      "amenities": ["Swimming Pool", "Garden", "Hill View"],
+      "ageOfProperty": 4,
+      "price": "₹ 3,50,00,000"
+    },
+    "hasLoan": true,
+    "loanDetails": {
+      "lender": "Axis Bank",
+      "amount": "₹ 2,80,00,000",
+      "outstandingAmount": "₹ 2,40,00,000"
+    }
+  },
+  {
+    "id": "URB12350",
+    "type": "Commercial",
+    "address": {
+      "street": "Senapati Bapat Road",
+      "locality": "Shivaji Nagar",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "pincode": "411016"
+    },
+    "owner": "Tech Space Solutions",
+    "registrationNumber": "PUN-CM-2017-234567",
+    "propertyDetails": {
+      "area": "5000 sq.ft",
+      "floor": 5,
+      "totalFloors": 12,
+      "amenities": ["Conference Room", "High Speed Internet", "24x7 Access"],
+      "ageOfProperty": 6,
+      "price": "₹ 4,50,00,000"
+    },
+    "hasLoan": true,
+    "loanDetails": {
+      "lender": "ICICI Bank",
+      "amount": "₹ 3,60,00,000",
+      "outstandingAmount": "₹ 2,80,00,000"
+    }
+  },
+  {
+    "id": "URB12351",
+    "type": "Apartment",
+    "address": {
+      "street": "NIBM Road",
+      "locality": "Kondhwa",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "pincode": "411048"
+    },
+    "owner": "Suresh Kulkarni",
+    "registrationNumber": "PUN-AP-2021-678901",
+    "propertyDetails": {
+      "area": "1500 sq.ft",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "floor": 7,
+      "totalFloors": 15,
+      "amenities": ["Clubhouse", "Gym", "Children's Play Area"],
+      "ageOfProperty": 2,
+      "price": "₹ 95,00,000"
+    },
+    "hasLoan": false
+  },
+  {
+    "id": "URB12352",
+    "type": "Shop",
+    "address": {
+      "street": "FC Road",
+      "locality": "Deccan Gymkhana",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "pincode": "411004"
+    },
+    "owner": "Jayant Retail Ventures",
+    "registrationNumber": "PUN-SH-2016-456789",
+    "propertyDetails": {
+      "area": "800 sq.ft",
+      "floor": 0,
+      "frontage": "20 ft",
+      "amenities": ["Main Road Facing", "High Footfall"],
+      "ageOfProperty": 9,
+      "price": "₹ 1,60,00,000"
+    },
+    "hasLoan": true,
+    "loanDetails": {
+      "lender": "Bank of Maharashtra",
+      "amount": "₹ 1,20,00,000",
+      "outstandingAmount": "₹ 75,00,000"
+    }
+  },
+  {
+    "id": "URB12353",
+    "type": "Independent House",
+    "address": {
+      "street": "Pashan Road",
+      "locality": "Pashan",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "pincode": "411021"
+    },
+    "owner": "Vijay Mokashi",
+    "registrationNumber": "PUN-IH-2014-890123",
+    "propertyDetails": {
+      "area": "2200 sq.ft",
+      "plotArea": "3000 sq.ft",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "totalFloors": 2,
+      "amenities": ["Terrace Garden", "Solar Panels", "Rainwater Harvesting"],
+      "ageOfProperty": 10,
+      "price": "₹ 2,10,00,000"
+    },
+    "hasLoan": false
+  },
+  {
+    "id": "URB12354",
+    "type": "Plot",
+    "address": {
+      "street": "Wagholi Road",
+      "locality": "Wagholi",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "pincode": "412207"
+    },
+    "owner": "Patel Developers",
+    "registrationNumber": "PUN-PL-2022-123789",
+    "propertyDetails": {
+      "area": "10000 sq.ft",
+      "dimensions": "100x100 ft",
+      "amenities": ["Gated Community", "All Utilities Available"],
+      "price": "₹ 90,00,000"
+    },
+    "hasLoan": false
+  }
+]
