@@ -96,7 +96,7 @@ function RuralPropertySearch() {
       
       if (!isHealthy) {
         setSearchError({ 
-          message: 'Backend server is not running. Please start the server at http://localhost:5000'
+          message: 'Backend server is not running. Please start the server at https://asset-guru.onrender.com'
         });
         return;
       }
@@ -118,7 +118,7 @@ function RuralPropertySearch() {
       let errorMessage = 'Failed to search properties';
       
       if (error.message && error.message.includes('Network Error')) {
-        errorMessage = 'Network error: Please check if the backend server is running at http://localhost:5000';
+        errorMessage = 'Network error: Please check if the backend server is running at https://asset-guru.onrender.com';
       } else if (error.response) {
         // The request was made and the server responded with a status code
         // that falls out of the range of 2xx
@@ -172,7 +172,7 @@ function RuralPropertySearch() {
     <div className="rural-search">
       {!backendStatus.healthy && backendStatus.checked && (
         <div className="alert alert-warning mb-4">
-          <strong>Warning:</strong> Backend server appears to be offline. Please make sure the server is running at <code>http://localhost:5000</code>
+          <strong>Warning:</strong> Backend server appears to be offline. Please make sure the server is running at <code>https://asset-guru.onrender.com</code>
         </div>
       )}
       

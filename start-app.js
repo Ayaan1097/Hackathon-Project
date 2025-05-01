@@ -95,7 +95,7 @@ try {
     indexContent = indexContent.replace(
       /app\.use\(cors\((\{[^}]*\}|\([^)]*\)|[^;])*\)\);/s,
       `app.use(cors({
-  origin: ['http://localhost:3000', 'http://localhost:3001', 'http://localhost:3003', 'http://127.0.0.1:3003'],
+  origin: ['https://asset-guru.onrender.com', 'https://asset-guru.onrender.com', 'https://asset-guru.onrender.com', 'http://127.0.0.1:3003'],
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization'],
   credentials: true

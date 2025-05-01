@@ -3,20 +3,20 @@ import axios from 'axios';
 // Define the backend API URL with fallback options
 // Trying several common port configurations
 const API_BASE_URL = process.env.REACT_APP_API_URL || 
-                     'http://localhost:5000/api/v1';
+                     'https://asset-guru.onrender.com/api/v1';
 
 // Add fallback URLs to try if main URL fails
 const FALLBACK_URLS = [
   // Standard API endpoints
-  'http://localhost:5000/api/v1',
-  'http://localhost:5000/api',
+  'https://asset-guru.onrender.com/api/v1',
+  'https://asset-guru.onrender.com/api',
   // Alternate ports for development
-  'http://localhost:3000/api/v1',
-  'http://localhost:3001/api/v1',
-  'http://localhost:3003/api/v1',
-  'http://127.0.0.1:5000/api/v1',
+  'https://asset-guru.onrender.com/api/v1',
+  'https://asset-guru.onrender.com/api/v1',
+  'https://asset-guru.onrender.com/api/v1',
+  'https://asset-guru.onrender.com/api/v1',
   // Direct connections to index.js endpoints
-  'http://localhost:5000'
+  'https://asset-guru.onrender.com'
 ];
 
 // Track connection status

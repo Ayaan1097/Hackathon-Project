@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Property Unification Platform
 
 A unified property search platform that integrates urban and rural property data from various sources into a single system.
@@ -88,3 +89,7 @@ The backend provides the following API endpoints:
 - The application is configured to work with mock data by default
 - The `.env` file in the backend contains configuration variables
 - To use real MapMyIndia API, replace the API key in the frontend services 
+=======
+# Hackathon-Project
+This is a project that we've build in our first hackathon Udaan 2.0
+>>>>>>> db2183feaa0bd4f27b199c8dd7f3f9c7c7a19b4b

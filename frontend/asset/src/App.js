@@ -34,7 +34,7 @@ const App = () => {
   const location = useLocation();
 
   const getData = async () => {
-    const response = await Axios.get("http://localhost:5000/getData");
+    const response = await Axios.get("https://asset-guru.onrender.com/getData");
     setData(response.data);
   };
 

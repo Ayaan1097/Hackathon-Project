@@ -1,7 +1,8 @@
 import axios from 'axios';
 
 // Mock API URL (in a real app, this would be the actual API endpoint)
-const WATER_SUPPLY_API_BASE_URL = 'https://api.watersupply.gov.in/v1';
+const API_BASE_URL = process.env.REACT_APP_API_URL || 'https://asset-guru.onrender.com';
+const WATER_SUPPLY_API_BASE_URL = `${API_BASE_URL}/api/v1/water`;
 
 /**
  * Fetch water connection details by consumer number

@@ -1,7 +1,8 @@
 // Electricity Board API Connector
 // This file provides the mock API connector for the Electricity Board
 
-const ELECTRICITY_API_BASE_URL = 'https://api.electricity-board.gov.in/v1';
+const API_BASE_URL = process.env.REACT_APP_API_URL || 'https://asset-guru.onrender.com';
+const ELECTRICITY_API_BASE_URL = `${API_BASE_URL}/api/v1/electricity`;
 
 /**
  * Fetch electricity connection details by consumer number

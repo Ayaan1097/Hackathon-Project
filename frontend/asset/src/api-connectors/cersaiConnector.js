@@ -1,7 +1,8 @@
 import axios from 'axios';
 
 // Mock API URL (in a real app, this would be the actual API endpoint)
-const CERSAI_API_BASE_URL = 'https://api.cersai.org.in/v1';
+const API_BASE_URL = process.env.REACT_APP_API_URL || 'https://asset-guru.onrender.com';
+const CERSAI_API_BASE_URL = `${API_BASE_URL}/api/v1/cersai`;
 
 /**
  * Fetch encumbrance details by property ID
